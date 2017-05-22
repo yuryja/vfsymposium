@@ -1,0 +1,48 @@
+@media only screen and (max-width: 1024px) {
+    .image{
+    	width:100%;
+		height: auto;
+		border: none;
+		display: block;
+		margin: 0 auto
+    }
+    .top{
+    	margin-top: 20px;
+    }
+    .buttonx{
+    margin: 10px;
+	}
+	.button-home{
+		margin-top: 15px;
+	}
+}
+div[class*="col-"] {
+    border: none !important;
+}
+.button.button-fill.color-red{
+    height: 139px;
+}
+.f7-icons, .framework7-icons{
+	font-size: 60px;
+	margin-top: 35px;
+	margin-bottom: 10px;
+}
+.f7-icons {
+    font-size: 50px !important;
+}
+.title-home{
+	margin-top: 0px
+}
+.button.button-big {
+    font-size: 14px;
+    line-height: 20px;
+}
+.navbar{
+	background: red;
+	color: #fff;
+}
+.friday{
+	font-weight: 700;
+	color: #666;
+	font-size: 20px;
+}

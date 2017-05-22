@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black">
+      <title>Layout Grid</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/framework7/1.4.2/css/framework7.ios.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/framework7/1.4.2/css/framework7.ios.colors.min.css">
+      <link rel="stylesheet" href="css/my.css">
+      <link rel="stylesheet" href="bower_components/framework7-icons/css/framework7-icons.css">
+      <style>
+         div[class*="col-"] {
+         background: #fff;
+         text-align: center;
+         color: #000;
+         border: 1px solid #D8D8D8;
+         }
+         .row {
+         margin-bottom: 10px;
+         }
+      </style>
+   </head>
+   <body>
+    <div class="row top">
+      <div class="col-100">
+        <img class="image" src="img/2017vfs.jpg">
+      </div>
+    </div>
+    <div class="row buttonx">
+      <div class="col-50 button-home"><a href="speakers.html" class="button button-big button-fill color-red"><i class="f7-icons">persons</i><p class="title-home">SPEAKERS</p></a></div>
+      <div class="col-50 button-home"><a href="#" class="button button-big button-fill color-red"><i class="f7-icons">list</i><p class="title-home">TOPICS</p></a></div>
+      <div class="col-50 button-home"><a href="#" class="button button-big button-fill color-red"><i class="f7-icons">today</i><p class="title-home">SCHEDULE</p></a></div>
+      <div class="col-50 button-home"><a href="#" class="button button-big button-fill color-red"><i class="f7-icons">world</i><p class="title-home">DISCOVER CHICAGO</p></a></div>
+    </div>    
+
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="bower_components/framework7/dist/js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="bower_components/framework7/dist/js/my-app.js"></script>
+  </body>
+</html>              
